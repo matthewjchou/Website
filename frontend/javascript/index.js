@@ -7,7 +7,7 @@ function randomizeImage() {
     var random = generateRandom(1, 7);
     var img = document.getElementById('image');     
     console.log(random);
-    img.src = `../resources/images/${random}.JPG`;
+    img.src = `frontend/resources/images/${random}.JPG`;
 }
 
 function generateRandom(min, max) {
